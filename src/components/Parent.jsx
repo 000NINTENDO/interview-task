@@ -14,7 +14,7 @@ const Parent = () => {
 	const Movies = allIds.map((id) => {
 		return <MovieCard id={id} key={id} />;
 	});
-	console.log(allIds);
+	// console.log(allIds);
 	return (
 		<>
 			<div>

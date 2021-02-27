@@ -31,10 +31,10 @@ const BackgroundBanner = () => {
 
 	const image_url = `https://image.tmdb.org/t/p/original${movie.backdrop_path}`;
 
-	console.log("random_id", random_id);
-	console.log("movie", movie);
+	// console.log("random_id", random_id);
+	// console.log("movie", movie);
+	// console.log(allIds);
 
-	console.log(allIds);
 	return (
 		<div className="backbground_banner">
 			<div className="backbground_banner__image">
