@@ -1,0 +1,43 @@
+.backbground_banner {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	z-index: -1;
+}
+
+.backbground_banner__image {
+	width: 100%;
+	height: 100%;
+}
+.backbground_banner__image_img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.backbground_banner_movie_page_banner_shadow_layer_1 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background-image: linear-gradient(
+		85.8deg,
+		rgba(0, 0, 0, 0.8) 60%,
+		rgba(0, 0, 0, 0.1) 100%
+	);
+	object-fit: cover;
+}
+
+.backbground_banner_movie_page_banner_shadow_layer_2 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: linear-gradient(
+		70.41deg,
+		rgba(0, 0, 0, 0) 90%,
+		rgba(0, 0, 0, 0.7) 99.25%
+	);
+	object-fit: cover;
+}

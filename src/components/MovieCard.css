@@ -1,0 +1,34 @@
+.moviecard {
+	width: 200px;
+	/* margin-left: 50px; */
+	margin-bottom: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.moviecard__movie_poster {
+	width: 100%;
+	height: 300px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.moviecard__movie_poster__image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.moviecard__movie_details {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.moviecard__movie_details__title {
+	font-size: 18px;
+	letter-spacing: 0.01em;
+}
+
+.moviecard__movie_details__release_date {
+	margin-top: 10px;
+}

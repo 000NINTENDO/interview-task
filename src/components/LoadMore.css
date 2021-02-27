@@ -1,0 +1,21 @@
+.loadmore {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.loadmore__button {
+	border: none;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 15px 40px;
+	border-radius: 30px;
+	outline: none;
+	transition: all 0.2s ease;
+	font-weight: 400;
+}
+
+.loadmore__button:hover {
+	background: rgba(255, 255, 255, 1);
+}
