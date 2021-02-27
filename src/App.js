@@ -2,7 +2,7 @@ import Parent from "./components/Parent";
 import BackgroundBanner from "./components/BackgroundBanner";
 import "./App.css";
 import { useSelector } from "react-redux";
-import LoadMore from "./components/LoadMore";
+// import LoadMore from "./components/LoadMore";
 
 function App() {
 	const allIds = useSelector((state) => {
@@ -24,7 +24,7 @@ function App() {
 			<div className="app_border"></div>
 			{idsLength !== 0 ? content : "loading"}
 			<Parent />
-			<LoadMore />
+			{/* <LoadMore /> */}
 		</div>
 	);
 }
