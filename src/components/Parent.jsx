@@ -17,10 +17,8 @@ const Parent = () => {
 	// console.log(allIds);
 	return (
 		<>
-			<div>
-				<Child />
-				{status === "fetched" ? <MovieList Movies={Movies} /> : "loading"}
-			</div>
+			<Child />
+			{status === "fetched" ? <MovieList Movies={Movies} /> : "loading"}
 		</>
 	);
 };
